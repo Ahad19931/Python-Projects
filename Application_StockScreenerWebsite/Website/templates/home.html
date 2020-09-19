@@ -1,0 +1,21 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class = "home">
+    <h1> Stock Price Analysis </h1>
+    <p>Plot the candle stick graph of any stock between selected time range.</p>
+</div>
+<form action="{{url_for('plot')}}" method="POST" enctype="multipart/form-data">
+    <br><p1> Stock Symbol:
+    <input placeholder="Enter stock symbol" type="string" name="stock_name" required> <br> <br>
+    <p2>Starting Date:
+    <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')"  onblur="(this.type='text')" name="start_date" required>
+    <p3>Ending Date:
+    <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')"  onblur="(this.type='text')" name="end_date" required>
+    </p3>
+    <button type="submit"> Plot </button>
+</form>
+<div class="message">
+    <b><br>{{text | safe}} </b>
+    {% include [btn] ignore missing %}
+</div>
+{%endblock%}

@@ -1,0 +1,22 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<script type="text/javascript" src = {{cdn_js | safe}}></script>
+
+<div class = "plot">
+    <h1>
+        <b>{{text1 | safe}}</b>
+    </h1>
+    <h3>
+        {{text2 | safe}} &nbsp; &nbsp;
+        {{text3 | safe}}
+    </h3>
+    <div class = "description">
+        <br><br><b><p1>Description</p1> </b> <br><br>
+        <p2> <em>Green Candle Stick -> Closing price of stock for a single day > Opening Price of stock for a single day</em> </p2> <br>
+        <p3><em> Red Candle Stick -> Closing price of stock for a single day < Opening Price of stock for a single day </em></p3> <br><br>
+    </div>
+</div>
+{{script1 | safe}}
+{{div1 | safe}}
+{%endblock%}

@@ -1,0 +1,181 @@
+html{
+  background: url('pic2.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #060;
+}
+
+/*
+ * Formatting the header area
+ */
+
+header {
+  height: 35px;
+  width: 100%;
+  opacity: .8;
+  margin-bottom: 10px;
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #FFFAFA;
+  text-transform: uppercase;
+  float: left;
+}
+
+header h1.logo:hover {
+  color: #4682B4;
+  text-decoration: navy;
+}
+
+/*
+ * Center the body content
+ */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+div.home {
+  padding: 10px 0 30px 0;
+  color: #FFE4E1;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.container form p1,p2,p3 {
+  color: #B0E0E6;
+}
+
+.container form input {
+  color: #000000;
+  background-color: #E0FFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container form input:hover {
+  background-color: #FFE4E1;
+  text-decoration: navy;
+}
+
+.container button {
+  background-color: #B0E0E6;
+  margin: 3px;
+}
+
+.container button:hover {
+  background-color: #4682B4;
+  text-decoration: navy;
+}
+
+div.message {
+  color: #FFE4E1
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #FFFAFA;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #4682B4;
+  text-decoration: navy;
+}
+
+div.plot h1 {
+  margin: 0;
+  font-size: 1.7em;
+  color: #FFE4E1;
+}
+
+div.plot h1:hover {
+  color: #4682B4;
+  text-decoration: navy;
+}
+
+div.plot h3 {
+  margin: 0;
+  font-size: 1.3em;
+  color: #FFE4E1;
+  margin-top: 20px;
+  text-align: left;
+}
+
+div.description p1 {
+  color: #6495ED;
+}
+
+div.description p2 {
+  color: #00FFBF;
+}
+
+div.description p3 {
+  color: #CC0000;
+}
+
+div.ListofStocks {
+  margin: 0;
+  color: #FFE4E1;
+  text-align: left;
+}
+
+div.Description h1 {
+  margin: 0;
+  font-size: 1.7em;
+  color: #FFE4E1;
+}
+
+div.Description ul {
+  margin: 0;
+  font-size: 1.15em;
+  color: #FFA07A;
+  margin-top: 20px;
+  text-align: left;
+}
+
+
+div.Polaroid {
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.Polaroid p {
+  color: #4682B4;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+

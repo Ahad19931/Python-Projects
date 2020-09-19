@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title> Online Dictionary</title>
+    <head>
+        <link href = "../static/main.css" rel = "stylesheet">
+    </head>
+        <body>
+            <div class = "container">
+                <h1> Online Dictionary</h1>
+                <h3> Enter the word </h3>
+                <p1> Developer: Ahad Maqsood</p1>
+                <p2> Developed using Python</p2>
+                <form action = "{{url_for('search')}}" method = "POST" enctype="multipart/form-data">
+                    <input placeholder="Enter word here" type="string" name="word" required>
+                    <button type="submit"> Search </button>
+                </form>
+                <div class="message">
+                    <em><b>{{text1 | safe}} </b></em> <br> <br>
+                    <em><b> {{text2 | safe}}</b></em>
+                    <em>{{text3 | safe}}</em>
+                    {% include [btn] ignore missing %}
+                </div>
+                <div> 
+                    {%for i in l_list%} 
+                        <li>{{i}}</li> 
+                    {%endfor%} 
+                </div>
+            </div>
+        </body>
+</html>
