@@ -4,7 +4,7 @@
 
 Note: 
 - If the graph plot doest show up, try to run plotting.ipynb with jupyter notebook.
-- Following dependencies need to downloaded before running the code:
+- Following dependencies need to be downloaded before running the code:
 	1) Open CV
 	2) Bokeh
 	3) Pandas
