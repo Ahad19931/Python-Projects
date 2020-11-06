@@ -9,7 +9,7 @@ It plots a 3 layered map on an html webpage.
 2. It will save a .html file in the same folder which can then be opened to see the map.
 
 Note:
-Following dependencies need to downloaded before running the code:
+Following dependencies need to be downloaded before running the code:
 	1) Folium
 	2) Pandas
 
