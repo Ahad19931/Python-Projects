@@ -11,3 +11,6 @@ Following dependencies need to downloaded before running the code:
 	1) Flask
 	2) PostgreSQL
 	3) sqlalchemy
+
+WEBSITE SCREENSHOT
+![screenshot](https://user-images.githubusercontent.com/49030315/98468199-ada7b080-21d9-11eb-9286-6159ce5c1dce.png)
