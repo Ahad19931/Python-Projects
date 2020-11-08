@@ -12,3 +12,8 @@ https://stock-screener-website.herokuapp.com/
 Following dependencies need to downloaded before running the code:
 	1) Flask
 	2) Pandas
+
+WEBSITE SCREENSHOT
+
+![screenshot](https://user-images.githubusercontent.com/49030315/98466967-150e3200-21d3-11eb-9fce-111bfbaeaddc.png)
+
