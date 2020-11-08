@@ -12,4 +12,8 @@ Note:
 Following dependencies need to be downloaded before running the code:
 	1) Folium
 	2) Pandas
+	
+MAP SCREENSHOT
+![screenshot](https://user-images.githubusercontent.com/49030315/98467235-869ab000-21d4-11eb-9c4b-64be26d5fcd0.png)
+
 
