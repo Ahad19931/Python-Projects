@@ -9,3 +9,5 @@ Note:
 	2) Bokeh
 	3) Pandas
 
+APPLICATION SCREENSHOT
+![screenshot](https://user-images.githubusercontent.com/49030315/98471784-ff0e6a80-21ee-11eb-8e75-1fdee0d28380.png)
