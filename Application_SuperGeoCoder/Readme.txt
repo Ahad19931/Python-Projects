@@ -13,4 +13,7 @@ https://super-geo-coder.herokuapp.com/
 Following dependencies need to downloaded before running the code:
 	1) Flask
 	2) Geopy
-    3) Pandas
+    	3) Pandas
+	
+WEBSITE SCREENSHOT
+![screenshot](https://user-images.githubusercontent.com/49030315/98466803-230f8300-21d2-11eb-9bf4-dbe0b8a84c75.png)
