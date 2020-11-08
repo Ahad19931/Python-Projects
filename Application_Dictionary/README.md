@@ -9,3 +9,8 @@ https://pdictionary-app.herokuapp.com/
 
 Following dependencies need to downloaded before running the code:
 	1) Flask
+
+WEBSITE SCREENSHOT
+
+![screenshot](https://user-images.githubusercontent.com/49030315/98467826-c911bc00-21d7-11eb-9fc4-9adc35296aaf.png)
+
