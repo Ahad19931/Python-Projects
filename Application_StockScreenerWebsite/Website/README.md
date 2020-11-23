@@ -12,6 +12,7 @@ https://stock-screener-website.herokuapp.com/
 Following dependencies need to downloaded before running the code:
 	1) Flask
 	2) Pandas
+	3) Bokeh
 
 WEBSITE SCREENSHOT
 
