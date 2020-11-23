@@ -13,6 +13,7 @@ Following dependencies need to downloaded before running the code:
 	1) Flask
 	2) Pandas
 	3) Bokeh
+	4) Requests
 
 WEBSITE SCREENSHOT
 
