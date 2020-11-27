@@ -6,6 +6,8 @@ This application allows the user to scrap the web data of a real state website a
 
 Following dependencies need to downloaded before running the code:
 	1) Pandas
+	2) Beautiful Soup
+	3) Requests
 
 Note: This main.py code will only work for the following url:
 
